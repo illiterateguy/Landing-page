@@ -1,0 +1,160 @@
+.hero,.footer{
+    background-color: #1F2937;
+    color:white;
+}
+
+body{
+    padding: 0px;
+    margin: 0px;
+}
+
+.hero{
+    padding:50px 100px;
+}
+
+.nav{
+    display:flex;
+    gap:30px;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.nav .links{
+    display:flex;
+    gap: 30px;
+}
+
+.hero .main-text,.nav .logo, .hero button{
+    color: #F9FAF8;
+} 
+
+.hero .main-text{
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.hero .sec-text,.links{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.nav .logo{
+    font-size: 24px;
+}
+
+.webintro button,.pamplete{
+    background-color: #3882F6;
+}
+
+button{
+    padding: 5px 10px;
+    border-radius : 10px;
+}
+
+.webintro{
+    display:flex;
+    justify-content: center;
+    gap:30px;
+}
+
+
+.webintro img{
+    height:250px;
+    width :400px;
+}
+
+.webintro .text-con{
+    display:flex;
+    flex-direction: column;
+    gap:10px;
+    align-items: start;
+}
+
+
+.cards{
+    display: flex;
+    justify-content: center;
+    gap:30px;
+}
+
+.card{
+    height:150px;
+    width:150px;
+    border-radius: 20px;
+    border:2px solid #3682ec; ;
+}
+
+#info{
+    padding: 10px;
+    text-align: center;
+}
+
+#info .header{
+    font-size: 36px;
+    font-weight: 1000;
+    margin:30px;
+    color:#1F2937;
+}
+
+.cards div{
+    width: 150px;
+}
+
+#quote,#action{   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 70px;
+}
+
+#quote{
+    background-color: #E5E7EB;
+}
+
+.qtext{
+    max-width : 800px 
+}
+
+.mainq{
+    font-size:36px; 
+    color: #1F2937;
+    font-style: italic;
+}
+
+.authorname{
+    font-weight: bold;
+    color: #1F2937;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.pamplete{
+    padding:70px;
+    display: flex;
+    justify-content: space-between;
+    color:#E5E7EB;
+    gap:40px;
+    font-size: 20px;
+}
+
+.actionhead{
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.pamplete button{
+    align-self: center;
+    color: inherit;
+    background-color: inherit;
+    border: 2px solid #E5E7EB;
+}
+
+.footer{
+    padding: 50px;
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    color:inherit;
+}
