@@ -55,9 +55,7 @@ button{
     display:flex;
     justify-content: center;
     gap:30px;
-    flex-wrap: wrap;
 }
-
 
 .webintro img{
     height:250px;
